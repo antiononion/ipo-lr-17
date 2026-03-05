@@ -1,10 +1,10 @@
-1. Какие поля и их типы необходимо добавить в модель "Товар"?
-name = CharField(max_length=255)
-description = TextField()
-price = DecimalField(max_digits=10, decimal_places=2)
-stock = PositiveIntegerField()
-category = ForeignKey(Category, on_delete=models.CASCADE)
-manufacturer = ForeignKey(Manufacturer, on_delete=models.CASCADE)
+1. Какие поля и их типы необходимо добавить в модель "Товар"?<br>
+name = CharField(max_length=255)<br>
+description = TextField()<br>
+price = DecimalField(max_digits=10, decimal_places=2)<br>
+stock = PositiveIntegerField()<br>
+category = ForeignKey(Category, on_delete=models.CASCADE)<br>
+manufacturer = ForeignKey(Manufacturer, on_delete=models.CASCADE)<br>
 
 2. Какой параметр on_delete используется и что он означает?
 Используется models.CASCADE.
